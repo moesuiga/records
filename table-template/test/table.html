@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Table Template Test</title>
+  <script src="../STable.js"></script>
+</head>
+<body>
+  <script>
+    var st = new STable({
+      cols: 3,
+      caption: '表格名称',
+      hasTitle: true
+    });
+    var content = [
+      ['first col', 'second col', 'last'],
+      ['third', 'fourth', null],
+      ['你', '是', '谁']
+    ];
+    st.createTable(content);
+  </script>
+</body>
+</html>
