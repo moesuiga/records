@@ -1,0 +1,20 @@
+{
+  "name": "records",
+  "version": "1.0.0",
+  "description": "> create time: 2018-3-2 > > author: suiga <wyw1121@live.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moesuiga/records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moesuiga/records/issues"
+  },
+  "homepage": "https://github.com/moesuiga/records#readme"
+}
