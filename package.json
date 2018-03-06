@@ -1,0 +1,23 @@
+{
+  "name": "records",
+  "version": "1.0.0",
+  "description": "my records: https://github.com/moesuiga/records/issues",
+  "main": "index.js",
+  "scripts": {
+    "backup": "node backup/backup-issues.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moesuiga/records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moesuiga/records/issues"
+  },
+  "homepage": "https://github.com/moesuiga/records#readme",
+  "devDependencies": {
+    "axios": "^0.18.0"
+  }
+}
